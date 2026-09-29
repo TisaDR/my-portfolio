@@ -1,7 +1,6 @@
-
-const githubUrl = "YOUR_GITHUB_URL";
+const githubUrl = "https://github.com/TisaDR";
 const linkedinUrl = "YOUR_LINKEDIN_URL";
-const email = "YOUR_EMAIL";
+const email = "pateltisa234@gmail.com";
 
 export default function Home() {
   return (
@@ -37,8 +36,9 @@ export default function Home() {
           </h1>
 
           <p className="hero-description">
-            I&apos;m a technology student focused on backend development,
-            artificial intelligence, and data-driven applications.
+            IT graduate with hands-on experience building backend systems,
+            AI-powered applications, data analytics solutions, and full-stack
+            projects.
           </p>
 
           <div className="hero-buttons">
@@ -453,9 +453,61 @@ export default function Home() {
         </div>
 
         <div className="projects-grid">
+
+          {/* Healthcare AI Evaluation */}
           <article className="project-card">
             <div className="project-top">
               <span>01</span>
+              <span>AI • HEALTHCARE • EVALUATION</span>
+            </div>
+
+            <h3>Healthcare AI Evaluation</h3>
+
+            <p>
+              An AI-powered healthcare question-answering application with
+              evaluation workflows for assessing the quality and reliability
+              of generated responses. The application is live and supported
+              by a 27-source literature review.
+            </p>
+
+            <div className="tech-tags">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>LLM</span>
+              <span>PostgreSQL</span>
+            </div>
+
+            <div className="project-links">
+              <a
+                href="https://github.com/TisaDR/healthcare-eval"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub ↗
+              </a>
+
+              <a
+                href="https://healthcare-eval.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo ↗
+              </a>
+
+              <a
+                href="https://doi.org/10.5281/zenodo.20405049"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Literature Review ↗
+              </a>
+            </div>
+          </article>
+
+          {/* AI Conversation Manager */}
+          <article className="project-card">
+            <div className="project-top">
+              <span>02</span>
               <span>BACKEND • AI</span>
             </div>
 
@@ -475,25 +527,23 @@ export default function Home() {
             </div>
 
             <div className="project-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 GitHub ↗
-              </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                Demo ↗
               </a>
             </div>
           </article>
 
+          {/* CreatorMarket */}
           <article className="project-card">
             <div className="project-top">
-              <span>02</span>
+              <span>03</span>
               <span>FULL STACK • GRAPH</span>
             </div>
 
             <h3>CreatorMarket</h3>
 
             <p>
-              A marketplace connecting brands and creators with
+              A full-stack marketplace connecting brands and creators with
               authentication, sponsorship features, database integration,
               and graph-based analytics.
             </p>
@@ -506,18 +556,16 @@ export default function Home() {
             </div>
 
             <div className="project-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 GitHub ↗
-              </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                Demo ↗
               </a>
             </div>
           </article>
 
+          {/* Wealth Insights */}
           <article className="project-card">
             <div className="project-top">
-              <span>03</span>
+              <span>04</span>
               <span>DATA • ANALYTICS</span>
             </div>
 
@@ -537,18 +585,16 @@ export default function Home() {
             </div>
 
             <div className="project-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 GitHub ↗
-              </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                Dashboard ↗
               </a>
             </div>
           </article>
 
+          {/* Payroll Management System */}
           <article className="project-card">
             <div className="project-top">
-              <span>04</span>
+              <span>05</span>
               <span>FULL STACK • PAYROLL</span>
             </div>
 
@@ -568,14 +614,12 @@ export default function Home() {
             </div>
 
             <div className="project-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 GitHub ↗
-              </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                Demo ↗
               </a>
             </div>
           </article>
+
         </div>
       </section>
 
@@ -587,6 +631,7 @@ export default function Home() {
         </div>
 
         <div className="skills-grid">
+
           <div className="skill-category">
             <h3>Languages</h3>
             <div className="skill-list">
@@ -605,6 +650,7 @@ export default function Home() {
               <span>Spring Boot</span>
               <span>Node.js</span>
               <span>Express</span>
+              <span>FastAPI</span>
               <span>REST APIs</span>
             </div>
           </div>
@@ -626,6 +672,7 @@ export default function Home() {
               <span>MongoDB</span>
               <span>Power BI</span>
               <span>Machine Learning</span>
+              <span>LLM Evaluation</span>
               <span>Hugging Face</span>
             </div>
           </div>
@@ -637,8 +684,11 @@ export default function Home() {
               <span>GitHub</span>
               <span>Docker</span>
               <span>Postman</span>
+              <span>Prisma</span>
+              <span>Neo4j</span>
             </div>
           </div>
+
         </div>
       </section>
 
@@ -651,28 +701,33 @@ export default function Home() {
 
         <div className="about-content">
           <div className="about-text">
+
             <p>
-              I&apos;m a technology student who enjoys building practical
-              software and understanding how systems work behind the scenes.
+              I&apos;m an Information Technology graduate with a background
+              in software development, backend engineering, artificial
+              intelligence, and data analytics.
             </p>
 
             <p>
-              My interests are centered around backend development,
-              artificial intelligence, and data. I like taking an idea,
-              breaking it down, and turning it into a working application.
+              I enjoy building practical applications that combine
+              software engineering with AI and data. My projects include
+              healthcare AI evaluation, backend systems, full-stack
+              applications, payroll systems, and financial analytics.
             </p>
 
             <p>
-              Outside of coding, I&apos;m always exploring new technologies
-              and looking for opportunities to grow through real-world
-              projects and experiences.
+              I&apos;m interested in opportunities where I can continue
+              developing my technical skills while contributing to
+              real-world software and technology projects.
             </p>
+
           </div>
 
           <div className="about-details">
+
             <div className="detail-block">
-              <span>Currently</span>
-              <h3>IT Student</h3>
+              <span>Education</span>
+              <h3>Information Technology</h3>
             </div>
 
             <div className="detail-block">
@@ -684,6 +739,7 @@ export default function Home() {
               <span>Based in</span>
               <h3>Toronto, Canada</h3>
             </div>
+
           </div>
         </div>
       </section>
@@ -696,6 +752,7 @@ export default function Home() {
         </div>
 
         <div className="experience-item">
+
           <div>
             <span className="experience-date">2025 — Present</span>
           </div>
@@ -703,13 +760,17 @@ export default function Home() {
           <div>
             <h3>Customer Service Representative</h3>
 
-            <p className="experience-company">Farm Boy</p>
+            <p className="experience-company">
+              Farm Boy
+            </p>
 
             <p className="experience-description">
               Working in a customer-focused environment while developing
-              communication, teamwork, problem-solving, and operational skills.
+              communication, teamwork, problem-solving, customer service,
+              and operational skills.
             </p>
           </div>
+
         </div>
       </section>
 
@@ -721,38 +782,54 @@ export default function Home() {
         </div>
 
         <div className="education-item">
+
           <div>
             <span className="experience-date">2025 — 2026</span>
           </div>
 
           <div>
-            <h3>Post-Graduate Certificate — Information Technology</h3>
+            <h3>
+              Post-Graduate Certificate — Information Technology
+            </h3>
 
-            <p className="experience-company">College Name</p>
+            <p className="experience-company">
+              Toronto, Canada
+            </p>
 
             <p className="experience-description">
-              Coursework and hands-on projects focused on software
-              development, databases, data analytics, and modern technology.
+              Hands-on studies and projects involving software development,
+              databases, data analytics, backend systems, artificial
+              intelligence, and modern application development.
             </p>
           </div>
+
         </div>
 
         <div className="education-item">
+
           <div>
-            <span className="experience-date">Bachelor&apos;s Degree</span>
+            <span className="experience-date">
+              Completed
+            </span>
           </div>
 
           <div>
-            <h3>Bachelor&apos;s Degree</h3>
+            <h3>
+              Bachelor&apos;s Degree
+            </h3>
 
-            <p className="experience-company">University Name, India</p>
+            <p className="experience-company">
+              India
+            </p>
           </div>
+
         </div>
       </section>
 
       {/* CONTACT */}
       <section id="contact">
         <div className="contact-content">
+
           <p className="section-number">06 — CONTACT</p>
 
           <h2>
@@ -762,12 +839,15 @@ export default function Home() {
           </h2>
 
           <p className="contact-description">
-            I&apos;m always interested in connecting, learning, and
-            working on interesting technology projects.
+            I&apos;m interested in connecting, learning, and contributing
+            to real-world software, AI, backend, and data projects.
           </p>
 
           <div className="contact-links">
-            <a href={`mailto:${email}`}>Email Me ↗</a>
+
+            <a href={`mailto:${email}`}>
+              Email Me ↗
+            </a>
 
             <a
               href={linkedinUrl}
@@ -784,6 +864,7 @@ export default function Home() {
             >
               GitHub ↗
             </a>
+
           </div>
         </div>
       </section>
