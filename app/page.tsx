@@ -744,36 +744,66 @@ export default function Home() {
         </div>
       </section>
 
-      {/* EXPERIENCE */}
-      <section id="experience">
-        <div className="section-heading">
-          <p className="section-number">04 — EXPERIENCE</p>
-          <h2>Where I&apos;ve worked.</h2>
-        </div>
+     {/* EXPERIENCE */}
+<section id="experience">
+  <div className="section-heading">
+    <p className="section-number">04 — RESEARCH & EXPERIENCE</p>
+    <h2>Where I&apos;ve worked and built.</h2>
+  </div>
 
-        <div className="experience-item">
+  <div className="experience-item">
+    <div>
+      <span className="experience-date">2023 — 2024</span>
+    </div>
 
-          <div>
-            <span className="experience-date">2025 — Present</span>
-          </div>
+    <div>
+      <h3>Machine Learning Researcher</h3>
 
-          <div>
-            <h3>Customer Service Representative</h3>
+      <p className="experience-company">
+        Charusat University — Mental Health Disorder Prediction
+      </p>
 
-            <p className="experience-company">
-              Farm Boy
-            </p>
+      <p className="experience-description">
+        Compared Logistic Regression, SVM, and Random Forest models to
+        classify four mental health disorders from 17 behavioral symptoms,
+        achieving 95.33% accuracy.
+      </p>
 
-            <p className="experience-description">
-              Working in a customer-focused environment while developing
-              communication, teamwork, problem-solving, customer service,
-              and operational skills.
-            </p>
-          </div>
+      <p className="experience-description">
+        Owned the full ML pipeline, including data cleaning, encoding,
+        feature selection, model training, and evaluation. Published the
+        research as a fellowship paper with a 27-source literature review.
+      </p>
 
-        </div>
-      </section>
+      <a
+        href="https://doi.org/10.5281/zenodo.20405049"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View Research Paper →
+      </a>
+    </div>
+  </div>
 
+  <div className="experience-item">
+    <div>
+      <span className="experience-date">2023 — 2024</span>
+    </div>
+
+    <div>
+      <h3>Mobile Application Developer</h3>
+
+      <p className="experience-company">
+        Charusat University — Fellowship
+      </p>
+
+      <p className="experience-description">
+        Developed a mobile application that captures patient information
+        digitally and created visualizations to analyze patient data.
+      </p>
+    </div>
+  </div>
+</section>
       {/* EDUCATION */}
       <section id="education">
         <div className="section-heading">
