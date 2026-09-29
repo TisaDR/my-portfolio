@@ -55,14 +55,13 @@ export default function Home() {
               GitHub ↗
             </a>
 
-            <a
-              href="/Tisa_Patel_Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="secondary-button"
-            >
-              Resume ↗
-            </a>
+           <a
+  href="/Tisa_Patel_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Resume
+</a>
           </div>
         </div>
 
@@ -558,6 +557,13 @@ export default function Home() {
             <div className="project-links">
               <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 GitHub ↗
+              </a>
+              <a
+                href="https://creatormarket-three.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo ↗
               </a>
             </div>
           </article>
